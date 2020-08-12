@@ -9,6 +9,8 @@
     "build": "cross-env NODE_ENV=production webpack",
     "build-test": "wukong release -b=test",
     "build-prod": "wukong release -b=prod",
+    "prod": "wukong release -b=prod",
+
     "lint": "eslint --fix --ext .js,.vue src"
   },
   "author": "",
